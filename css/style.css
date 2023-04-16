@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body{
+    background: linear-gradient(90deg, #EFF54D 0%, #00AC61 100%);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: DynaPuff;
+    color: black;
+    font-size: 30px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-menu{
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.main-menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1%;
+}
