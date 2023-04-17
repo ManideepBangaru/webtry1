@@ -50,6 +50,10 @@ nav{
     margin: 20px; 
 }
 
+.main-menu a:hover{
+    color: black;
+}
+
 .mobile-menu{
     display: none;
     color: white;
