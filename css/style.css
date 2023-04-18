@@ -6,20 +6,55 @@ body{
     background-size: cover;
 }
 
-header{
-    font-family: 'Great Vibes', cursive;
+.banner{
+    font-family: "Great Vibes";
     font-size: 60px;
+    color: white;
+    background-color: #2d3132;
+    width: 50%;
+    margin: 10% auto;
     text-align: center;
-    width: 500px;
-    margin: 200px auto;
+    border-radius: 30px;
+    opacity: 50%;
+    padding: 0.5%;
 }
 
-header p{
-    margin: 0;
+.author{
+    font-size: 30px;
 }
 
-@media screen and (max-width:600px) {
-    header p{
+@media screen and (max-width:800px) {
+    .banner{
         font-size: 40px;
+    }
+
+    .author{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .banner{
+        background-color: transparent;
+        font-size: 25px;
+        color: black;
+        opacity: 100%;
+    }
+
+    .author{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .banner{
+        background-color: transparent;
+        font-size: 20px;
+        color: black;
+        opacity: 100%;
+    }
+
+    .author{
+        font-size: 10px;
     }
 }
